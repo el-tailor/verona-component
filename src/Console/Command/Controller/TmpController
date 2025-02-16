@@ -1,0 +1,19 @@
+
+
+namespace [namespace];
+
+use Verona\Component\Controller\AbstractController;
+use Verona\Component\HttpFoundation\Response;
+use Verona\Component\HttpFoundation\Request;
+use Verona\Component\Routing\Route;
+
+#[Route('/[url]', "[name]")]
+class [class] extends AbstractController {
+
+    public function doGet(Request $request): ?Response
+    {
+        return $this->render("[template]", []);
+    }
+
+}
+

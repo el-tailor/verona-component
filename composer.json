@@ -1,0 +1,22 @@
+{
+    "name": "verona/component",
+    "description": "Verona MVC Framework Core Component",
+    "type": "library",
+    "author": [
+        {
+            "name": "Tailor Mavoungou",
+            "email": "tailormavoungou@outlook.com"
+        }
+    ],
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Verona\\Component\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2"
+    }
+}
