@@ -2,14 +2,14 @@
     "name": "verona/component",
     "description": "Verona MVC Framework Core Component",
     "type": "library",
-    "author": [
+    "authors": [
         {
             "name": "Tailor Mavoungou",
             "email": "tailormavoungou@outlook.com"
         }
     ],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.0-dev",
     "autoload": {
         "psr-4": {
             "Verona\\Component\\": "src/"
